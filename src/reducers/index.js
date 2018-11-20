@@ -1,6 +1,8 @@
 import user from "./user";
 import contacts from "./contacts";
+import messages from "./messages";
 import activeUserId from "./activeUserId";
+import typing from "./typing";
 import { combineReducers } from "redux";
 
 // combineReducers function takes in an object. 
@@ -9,6 +11,8 @@ import { combineReducers } from "redux";
 // They represent only the value of the particular key in state object 
 export default combineReducers({
 	user,
+	messages,
+	typing,
 	contacts,
 	activeUserId
 });

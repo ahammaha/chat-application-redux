@@ -1,9 +1,5 @@
-import React from "react";
-
-const ChatWindow = ({ activeUserId }) => {
-  return (
-    <div className="ChatWindow">Conversation for user id: {activeUserId}</div>
-  );
-};
-
-export default ChatWindow;
+.ChatWindow {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
